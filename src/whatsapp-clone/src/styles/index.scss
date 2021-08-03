@@ -1,0 +1,16 @@
+@import url('./globals');
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #292929;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+}
