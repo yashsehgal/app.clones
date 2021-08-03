@@ -1,4 +1,8 @@
+div.recent-chat {
+  background-color: white;
+}
+
 div.recent-chat:hover {
-  background-color: rgba(128, 128, 128, 0.125);
+  background-color: #e4e4e4;
 }
 /*# sourceMappingURL=style.css.map */

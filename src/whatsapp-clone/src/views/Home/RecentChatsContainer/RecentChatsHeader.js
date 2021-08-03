@@ -53,6 +53,12 @@ export default class RecentChatsHeader extends React.Component {
                 className="chat-header-logo logo"
               />
             </li>
+            <li className="chat-header-icon">
+              <img src={MoreOptionsIcon}
+                alt="more-options"
+                className="chat-header-logo logo"
+              />
+            </li>
           </ul>
         </div>
       </div>

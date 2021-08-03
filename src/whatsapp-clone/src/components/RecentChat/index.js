@@ -9,6 +9,7 @@ export default class RecentChat extends React.Component {
           display: 'flex',
           alignItems: 'center',
           gap: '20px',
+          width: '100% auto',
           padding: '0.6em',
           borderBottom: '0.1px solid rgba(0, 0, 0, 0.225)'
         }}
