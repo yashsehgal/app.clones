@@ -9,7 +9,6 @@ export default class MessageInput extends React.Component {
           padding: '1em',
           display: 'grid',
           gridTemplateColumns: 'auto auto auto',
-          // position: 'fixed'
         }}
       >
         <div className="action-buttons">
