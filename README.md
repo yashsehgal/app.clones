@@ -22,4 +22,4 @@ A repository where I practice frontend development and best practices of program
 - [ ] Facebook
 - [ ] GMail (Google Mails)
 - [ ] Disney+ Hotstar
-- [ ] WhatsApp
+- [ ] Snapchat
