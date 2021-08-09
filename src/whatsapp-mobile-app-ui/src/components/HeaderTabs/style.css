@@ -1,0 +1,73 @@
+div.header-tab {
+  background-color: var(--color-dark-green);
+  color: var(--color-white);
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+div.header-tab > div.header-tab-top-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.header-tab > div.header-tab-top-section-wrapper > div.header-tab-action-icon-wrapper {
+  margin-left: auto;
+}
+
+div.header-tab > div.header-tab-top-section-wrapper > div.header-tab-action-icon-wrapper > ul.header-tab-action-icon-wrapper-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+div.header-tab > div.header-tab-top-section-wrapper > div.header-tab-action-icon-wrapper > ul.header-tab-action-icon-wrapper-list > li.header-tab-action-icon > img.action-icon {
+  width: 20px;
+  height: 20px;
+}
+
+div.header-tab > div.header-tab-bottom-section-wrapper {
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.header-tab > div.header-tab-bottom-section-wrapper > div.header-bottom-tabs-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.header-tab > div.header-tab-bottom-section-wrapper > div.header-bottom-tabs-wrapper > div.header-tab {
+  width: 100%;
+  height: 50px;
+}
+
+div.header-tab > div.header-tab-bottom-section-wrapper > div.header-bottom-tabs-wrapper > div.header-tab:hover {
+  background-color: rgba(255, 255, 255, 0.125);
+  border-bottom: 3px solid white;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.125);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.125);
+}
+
+div.header-tab > div.header-tab-bottom-section-wrapper > div.header-bottom-tabs-wrapper > div.header-tab > p.tab-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

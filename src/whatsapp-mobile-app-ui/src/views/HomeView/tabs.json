@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Chats",
+    "path": "/chats"
+  },
+  {
+    "title": "Status",
+    "path": "/status"
+  },
+  {
+    "title": "Calls",
+    "path": "/recent-calls"
+  }
+]

@@ -1,0 +1,9 @@
+@import url("./components-ui/");
+@import url("./globals/");
+body {
+  color: var(--color-black);
+  font-family: 'Roboto', sans-serif;
+  font-weight: inherit;
+  line-height: 1.3;
+}
+/*# sourceMappingURL=style.css.map */
