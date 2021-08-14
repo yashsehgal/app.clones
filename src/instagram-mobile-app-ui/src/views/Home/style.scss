@@ -1,0 +1,15 @@
+div.home-view {
+  > div.home-view-story-container {
+    display: flex;
+    padding: 0.4em;
+    align-items: center;
+    gap: 12px;
+    overflow: scroll;
+  }
+  > div.home-view-posts-container {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 2em;
+  }
+}

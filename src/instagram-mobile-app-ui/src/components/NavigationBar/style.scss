@@ -1,0 +1,22 @@
+div.navigation-bar {
+  border-top: 0.2px solid var(--gray-2);
+  box-shadow: 0px -2px 8px  var(--gray-2);
+  width: 100%;
+  position: fixed; 
+  bottom: 0%;
+  opacity: 1;
+  height: 46px;
+  background-color: white;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto auto;
+
+  > div.navigation-bar-icon-wrapper {
+    width: fit-content;
+    margin: auto;
+    > i {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+div.home-view > div.home-view-story-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  overflow: scroll;
+}
+
+div.home-view > div.home-view-posts-container {
+  margin-top: 2em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  row-gap: 2em;
+}
+/*# sourceMappingURL=style.css.map */

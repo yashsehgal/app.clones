@@ -1,0 +1,24 @@
+:root {
+  --black: hsl(0, 0%, 16%);
+  --white: hsl(0, 0%, 100%);
+  --gray-1: hsl(0, 0%, 95%);
+  --gray-2: hsl(0, 0%, 82%);
+  --gray-3: hsl(0, 0%, 64%);
+  --gray-4: hsl(0, 0%, 51%);
+  --blue: hsl(235, 60%, 57%);
+  --red: hsl(0, 78%, 57%);
+}
+
+.instagram-gradient {
+  color: linear-gradient(#f58529, #feda76, #dd2c7c, #8335b1, #505bd3);
+}
+
+.instagram-gradient-fill {
+  fill: linear-gradient(#f58529, #feda76, #dd2c7c, #8335b1, #505bd3);
+}
+
+.instagram-gradient-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f58529), color-stop(#feda76), color-stop(#dd2c7c), color-stop(#8335b1), to(#505bd3));
+  background: linear-gradient(#f58529, #feda76, #dd2c7c, #8335b1, #505bd3);
+}
+/*# sourceMappingURL=colors.css.map */

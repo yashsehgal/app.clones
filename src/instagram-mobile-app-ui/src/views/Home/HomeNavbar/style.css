@@ -1,0 +1,32 @@
+div.home-navbar {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-shadow: 0px -2px 8px var(--gray-2);
+          box-shadow: 0px -2px 8px var(--gray-2);
+  border-bottom: 0.2px solid var(--gray-2);
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.8em 1.2em;
+}
+
+div.home-navbar > i {
+  font-size: 20px;
+}
+
+div.home-navbar > i.add-story-icon {
+  border: 3px solid #292929;
+  padding: 1px 2px;
+  border-radius: 4px;
+}
+
+div.home-navbar > img.instagram-logo {
+  width: 120px;
+}
+/*# sourceMappingURL=style.css.map */

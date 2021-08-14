@@ -1,0 +1,16 @@
+body {
+  font-family: var(--text-style);
+  color: var(--black);
+  line-height: normal;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+// removing scroll-bar for mobile view
+::-webkit-scrollbar {
+  display: none;
+}

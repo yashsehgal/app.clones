@@ -1,0 +1,72 @@
+div.post-content-handler {
+  border-top: 0.1px solid var(--gray-1);
+  width: 100%;
+  overflow: hidden;
+  > div.post-content-handler-header {
+    display: flex;
+    align-items: center;
+    > div.post-content-handler-header-user-details {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0.4em;
+      > img.post-user-profile-photo {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+      }
+      > p.post-username {
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+    > i#more-options {
+      margin-left: auto;
+      padding: 0em 1em;
+    }
+  }
+  > div.post-content-wrapper {
+    width: 100%;
+    > img.post-content-media {
+      width: 100%;
+    }
+  }
+  > div.post-content-handler-footer {
+    padding: 0.4em;
+    > div.post-content-handler-footer-action-button-wrapper {
+      display: flex;
+      align-items: center;
+      > div.action-button-post {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        > i {
+          font-size: 18px;
+        }
+      }
+      > i#save-icon {
+        margin-left: auto;
+        padding: 0em 0.5em;
+        font-size: 18px;
+      }
+    }
+    > div.post-content-handler-footer-stats-comments-wrapper {
+      margin-top: 0.4em;
+      > p.likes-status {
+        font-size: 13px;
+      }
+      > p.post-caption {
+        margin-top: 4px;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      > p.post-comments-stats {
+        font-size: 12px;
+        color: var(--gray-3);
+        margin-top: 4px;
+      }
+    }
+  }
+}

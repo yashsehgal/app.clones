@@ -1,0 +1,68 @@
+div.story-handler-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.4em;
+}
+
+div.story-handler-wrapper > div.story-profile-photo-wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.25em;
+  border-radius: 50%;
+}
+
+div.story-handler-wrapper > div.story-profile-photo-wrapper > img.user-profile-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+div.story-handler-wrapper > p {
+  font-size: small;
+  font-weight: 600;
+}
+
+div.story-content-wrapper {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.story-content-wrapper > div.story-user-details-wrapper {
+  z-index: 1;
+  position: fixed;
+  padding: 0.6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+div.story-content-wrapper > div.story-user-details-wrapper > img.user-profile-photo {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+div.story-content-wrapper > div.story-user-details-wrapper > p.story-username {
+  color: var(--white);
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
