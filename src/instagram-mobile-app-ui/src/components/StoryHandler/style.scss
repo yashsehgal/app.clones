@@ -8,11 +8,12 @@ div.story-handler-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.25em;
+    padding: 0.2em;
     border-radius: 50%;
     > img.user-profile-photo {
       width: 64px;
       height: 64px;
+      border: 2px solid var(--white);
       border-radius: 50%;
     }
   }

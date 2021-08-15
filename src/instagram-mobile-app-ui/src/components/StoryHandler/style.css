@@ -20,13 +20,14 @@ div.story-handler-wrapper > div.story-profile-photo-wrapper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0.25em;
+  padding: 0.2em;
   border-radius: 50%;
 }
 
 div.story-handler-wrapper > div.story-profile-photo-wrapper > img.user-profile-photo {
   width: 64px;
   height: 64px;
+  border: 2px solid var(--white);
   border-radius: 50%;
 }
 

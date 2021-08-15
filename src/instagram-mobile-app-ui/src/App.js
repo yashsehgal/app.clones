@@ -5,6 +5,7 @@ import Home from './views/Home';
 // including globals styles
 import './styles/index.css';
 import NavigationBar from './components/NavigationBar';
+import Explore from './views/Explore';
 
 export default class App extends React.Component {
   render() {
@@ -14,6 +15,10 @@ export default class App extends React.Component {
           <Route 
             path="/"
             exact component={Home}
+          />
+          <Route
+            path="/explore"
+            exact component={Explore}
           />
         </HashRouter>
         <NavigationBar />

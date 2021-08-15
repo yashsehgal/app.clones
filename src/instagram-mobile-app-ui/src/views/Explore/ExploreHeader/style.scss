@@ -1,0 +1,27 @@
+div.explore-header {
+  opacity: 1;
+  margin-top: 0.6em;
+  padding: 0.4em;
+  width: 100%;
+  > div.search-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--gray-2);
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
+    > input.search__input-textBox {
+      background-color: transparent !important;
+      border: none;
+      padding: 0.2em;
+      width: 100%;
+      font-family: inherit;
+      &:focus {
+        outline: none !important;
+      }
+    }
+  }
+}

@@ -13,10 +13,22 @@ div.navigation-bar {
   grid-template-columns: auto auto auto auto auto;
 
   > div.navigation-bar-icon-wrapper {
-    width: fit-content;
-    margin: auto;
-    > i {
-      font-size: 20px;
+    width: 100%;
+    height: 100%;
+    // margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background-color: var(--gray-1);
+      i {
+        color: var(--gray-4);
+      }
     }
   }
+}
+
+i.navigation-icon {
+  font-size: 20px !important;
+  color: var(--black);
 }
